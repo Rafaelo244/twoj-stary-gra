@@ -4,6 +4,7 @@ import tkinter as tk
 root = tk.Tk()
 root.geometry("1500x1000")
 root.title("tfuj stary gra")
+root.configure(background="#404040")
 
 textbox = tk.Text(root, height = 10)
 textbox.place(anchor=tk.CENTER, relx=0.5, rely=0.3)
